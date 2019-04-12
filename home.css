@@ -1,0 +1,290 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	color: black;
+	margin: 0;
+	background-color: #000000;
+	background-image: url("images/galaxy2.png");
+	font-family:Copperplate / Copperplate Gothic Light, sans-serif;
+	background-color:  #eae1eb;
+	position:relative;
+
+}
+.all {
+	display:block;
+	height: 100%;
+	width: 100%;
+}
+.menu {
+	display: flex;
+	height: 8%;
+	width: 100%;
+	background-color:	#4B0082;
+	position: fixed;
+
+
+}
+.heading {
+	display: flex;
+	height: 12%;
+	width: 100%;
+	background-color:#E4CBF2;
+}
+.content {
+	display: flex;
+	height: 80%;
+	width: 100%;
+	background-color: #eae1eb;
+}
+.descrip {
+	display: flex;
+	height: 100%;
+	width: 50%;
+	//*
+	border-style: solid;
+	border-width: 5px;
+	border-color: #8B4513;
+	*//
+}
+.descrip2{
+	display: block;
+	height: 100%;
+	width: 100%;
+	//*
+	border-style: solid;
+	border-width: 5px;
+	border-color: blue;
+	*//
+}	
+
+.teach1 {
+	display: block;
+	height: 60%;
+	width: 100%;
+	//*
+	border-style: solid;
+	border-width: 5px;
+	border-color: yellow;
+	*//
+}
+.teach {
+	display: flex;
+	height: 40%;
+	width: 100%;
+	//*
+	border-style: solid;
+	border-width: 5px;
+	border-color: red;
+	*//
+}
+
+.center-content{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-image-size{
+	max-height:100%;
+	max-width:100%;
+}
+.mini1{
+	display:flex;
+	height: 100%;
+	width: 6%;
+	align-items: center;
+}
+.mini2{
+	display:flex;
+	height: 100%;
+	width: 88%;
+	align-items: center;
+}
+.mini3{
+	display:flex;
+	height: 100%;
+	width: 6%;
+	align-items: center;
+}
+.andy{
+	display: block;
+	height:100%;
+	width: 30%;
+	//*
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	*//
+}
+.andy2{
+	display: block;
+	height:100%;
+	width: 70%;
+	//*
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	*//
+}
+
+h1{
+	font-family:  Impact, Charcoal, sans-serif;
+}
+.relative {
+  position: relative;
+  left: 130px;
+}
+.teacher{
+	display: block;
+	height:30%;
+	width: 100%;
+}
+.first { 
+height: 100%;
+width:25%;
+
+
+} 
+
+
+.second { 
+height: 100%;
+width:25%;
+} 
+
+
+.third { 
+height: 100%;
+width:25%;
+} 
+
+.fourth { 
+height: 100%;
+width:25%;
+
+} 
+
+ul {
+	list-style-type:none;
+	overflow:hidden;
+	padding: 0;
+	position:fixed;
+	top: 0;
+	width: full;      
+	height: 12%;
+
+} 
+
+li{ 
+	float:left;
+} 
+
+li a {
+	display:flex;
+	border:2px black solid;
+	background-color: #ffffff;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	width:100%;
+	
+} 
+
+li a:hover{ 
+	width: 100%
+} 
+
+
+/*
+/* Style the header */
+/*
+.header {
+  padding: 10px 5px;
+  background-color: #8A3EBF;;
+}
+
+/* Page content */
+/*
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position *//*
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/*
+
+ Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/*
+.sticky + .content {
+  padding-top: 2px;
+}
+*//
+//*
+.navbar {
+  overflow: hidden;
+  background-color: #8A3EBF;
+  width: 1000px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  height: 70%;
+background-color: #BFB6B9;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+*//
